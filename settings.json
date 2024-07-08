@@ -1,0 +1,39 @@
+{
+  "BASE_WORKSHOP_URL_COLLECTION": "https://steamcommunity.com/sharedfiles/filedetails/?id=",
+  "BASE_WORKSHOP_URL_MOD": "https://steamcommunity.com/sharedfiles/filedetails/?id=",
+  "delim": "::",
+  "count_limit": 10,
+  "output_folder": "output",
+  "output_csv": "pz_workshop_mod_data.csv",
+  "output_ini": "pz_config_for_server.ini",
+  "server_ini": "pz_server.ini",
+  "file_ids_get": "get_ids.lst",
+  "list_ids_get": [],
+  "collection_id_to_config": "",
+  "file_ids_collection_to_config": "pz_config_ids.lst",
+  "file_ids_to_config": "ids.lst",
+  "include": {
+    "WorkshopItems": [],
+    "Mods": [],
+    "Map": []
+  },
+  "exclude": {
+    "WorkshopItems": [],
+    "Mods": [],
+    "Map": []
+  },
+  "multi_items": [
+    {
+      "WorkshopItems": "",
+      "include": {
+        "Mods": [],
+        "Map": []
+      },
+      "exclude": {
+        "Mods": [],
+        "Map": []
+      },
+      "Notes": ""
+    }
+  ]
+}
